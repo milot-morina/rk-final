@@ -1,0 +1,61 @@
+/* PhotoBackground.css */
+.photo-background {
+  position: relative;
+  overflow: hidden;
+  height: 90vh;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  position: relative; /* Set position to relative */
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.typing-text {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #fff;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+
+@media (max-width: 768px) {
+  .typing-text {
+    font-size: 24px;
+  }
+  .text-container{
+    display: none;
+  }
+}

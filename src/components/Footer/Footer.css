@@ -1,0 +1,21 @@
+.footer-container {
+    background-color: black; /* Dark background color */
+    color: #fff; /* White text color */
+    
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 100px; /* Maximum width for responsiveness */
+    margin: auto; /* Center the content horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 150px; /* Adjust the width of the logo as needed */
+    height: auto;
+    /* Add some spacing between the text and logo */
+  }
+  

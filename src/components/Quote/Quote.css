@@ -1,0 +1,36 @@
+.quote-container {
+    /* Remove opacity property to keep the quote visible */
+    transition: transform 1s ease-in-out;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    max-width: 600px; /* Maximum width for responsiveness */
+    margin: auto; /* Center the container horizontally */
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px; /* Add some border-radius for a softer look */
+    text-align: center;
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      transform: translateY(-20px); /* Initial position slightly above */
+    }
+    to {
+      transform: translateY(0); /* Final position centered */
+    }
+  }
+  
+  blockquote {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .quote {
+    margin-bottom: 10px;
+  }
+  
+  .author {
+    font-style: italic;
+  }
+  

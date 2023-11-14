@@ -1,0 +1,74 @@
+/* App.css */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    height: 5px;
+  }
+
+  .gloves{
+    height: 30px;
+    align-items: center;
+    align-self: center;
+    width: 40px;
+  }
+  
+  
+  .navbar-toggle {
+    display: none; /* Hide the toggle button by default */
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin: 0 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-item {
+        margin: 2vh 0.5rem; /* Adjust the margin as a percentage of the viewport height */
+        font-size: 8vw; 
+    }
+    .navbar-toggle {
+      display: block; /* Display the toggle button on smaller screens */
+      justify-content: end;
+    }
+  
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px; /* Adjust as needed based on your navbar height */
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #333;
+    }
+  
+    .navbar-menu.open {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 4;
+    }
+    .gloves{
+      display: none;
+    }
+  }
+  
