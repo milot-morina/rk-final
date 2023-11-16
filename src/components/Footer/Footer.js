@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer-container">
       <div className="footer-content">
         
-      <img src="/assets/reetech.webp" alt="Reetech Logo" className="logo" />
+      <img src="assets/reetech.webp" alt="Reetech Logo" className="logo" />
 
 
       </div>

@@ -58,9 +58,9 @@ const Slider = () => {
           <div className="content">
             <div className="description">
               <h1>BOXING COACH</h1>
-              <p>A passionate boxing coach who is willing to go above and beyond!!!</p>
+              <p>A passionate boxing coach who is willing to go above and beyond!</p>
             </div>
-            <img src="assets/rk-main.jpg" alt="Duotone" />
+            <img src="assets/coach-main.webp" alt="Duotone" />
           </div>
         </div>
 

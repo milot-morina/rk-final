@@ -2,6 +2,9 @@
 import React from 'react';
 import './About.css';
 const About = () => {
+  const youtubeVideoLink = 'https://www.youtube.com/watch?v=XY95nhJN9Pw&t=49s'; 
+
+
   return (
     <div id="about-section">
     <div className="responsive-container-block bigContainer">
@@ -15,7 +18,9 @@ const About = () => {
            Është një rrugëtim i vështirë, por po punoj fort për ta bërë këtë ndeshje të jashtëzakonshme.
            Ndeshjen time e gjeni live ne kete link!
           </p>
-         
+          <a href={youtubeVideoLink} target="_blank" rel="noopener noreferrer">
+              <button className="youtubeButton">Watch on YouTube</button>
+            </a>
         </div>
         <div className="videoContainer">
           <iframe
@@ -28,7 +33,7 @@ const About = () => {
           <img
             className="dotsImg image-block"
             src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/cw3.svg"
-            alt="Dots Image"
+            alt="Dots for Aesthetic"
           />
         </div>
       </div>

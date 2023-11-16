@@ -2,6 +2,23 @@
     font-family: Nunito, sans-serif;
   }
   
+  /* Add this to your About.css */
+.youtubeButton {
+  background-color: #ff0000; /* Choose your desired background color */
+  color: #ffffff; /* Choose your desired text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  border: none;
+  border-radius: 5px; /* Adjust border radius for rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.youtubeButton:hover {
+  background-color: #cc0000; /* Change the background color on hover */
+}
+
+
   .responsive-container-block {
     min-height: 75px;
     height: fit-content;
