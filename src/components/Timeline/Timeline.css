@@ -119,16 +119,7 @@
     font-style: italic;
   }
   
-  /* Timeline dot */
-  /* .title::before {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: white;
-    border-radius: 999px;
-    border: 3px solid orangered;
-  } */
+
 
   /* Add this to your Timeline.css */
 .quote {

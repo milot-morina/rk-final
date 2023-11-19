@@ -1,0 +1,103 @@
+/* Add this to your existing CSS */
+
+#grow-with-us {
+    background-image: url('../../../public/assets/bgbg.webp'),
+      linear-gradient(to bottom, #0e121b 1%, #2a2335 60%, #0e121b 100%);
+    margin-bottom: 20px;
+    padding-block: 20px;
+  }
+  
+  .grow-box {
+    background-color: transparent;
+    width: 80%;
+    text-align: center;
+    margin-inline: auto;
+    border-radius: 10px;
+  }
+  
+  /* Container */
+  .growContainer {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  /* Text Animation */
+  @keyframes textAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(1em);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* ml10 - Container for Text Animation */
+  .ml10 {
+    position: relative;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .ml10 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml10 .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+  }
+  
+  .ml10 .letters {
+    color: rgb(77, 69, 173); /* Set the color to white */
+    animation: textAnimation 2s infinite;
+  }
+  
+  /* ml15 - Text Animation */
+  .ml15 {
+    color: rgb(77, 69, 173); /* Set the color to white */
+    font-size: 2em;
+    animation: textAnimation 1s ease-out;
+  }
+  
+  /* ml16 - Text Animation */
+  .ml16 {
+    color: rgb(77, 69, 173); /* Set the color to white */
+    animation: textAnimation 1s ease-out;
+  }
+  
+  /* Card Button */
+  .card-btn {
+    padding-block: 7px;
+    width: 130px;
+    margin-top: 30px;
+    background-color: var(--color4);
+    color: white;
+    border: 2px solid var(--color4);
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  .card-btn:hover {
+    background-color: aliceblue;
+    
+    color: var(--color2);
+    border-color: rgb(77, 69, 173);
+  }
+  
+  .card-btn {
+    background-color: rgb(77, 69, 173);
+    color: var(--color2);
+    border-color: #9075c4;
+  }
+  

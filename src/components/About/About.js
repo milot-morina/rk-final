@@ -11,12 +11,11 @@ const About = () => {
       <div className="responsive-container-block Container bottomContainer">
         <div className="allText bottomText">
           <p className="text-blk headingText">About Me</p>
-          <p className="text-blk subHeadingText">November 17 Here I Come!</p>
+          <p className="text-blk subHeadingText">I am Riad Kunushefci</p>
           <p className="text-blk description">
-          Një sfidë e re është në horizont! Vetëm pak ditë larg ndeshjes sime në boks, dhe emocionet po 
-          rriten gjithnjë e më shumë.
-           Është një rrugëtim i vështirë, por po punoj fort për ta bërë këtë ndeshje të jashtëzakonshme.
-           Ndeshjen time e gjeni live ne kete link!
+          I've dedicated my life to the sweet science of boxing, honing my skills and pushing my limits in the pursuit of greatness.
+          Beyond the glitz and glamour of the sport, I am a gritty individual who understands that success is earned through discipline, determination, and an unyielding desire to improve.
+          Join me on this exhilarating ride as I seek out new challenges!
           </p>
           <a href={youtubeVideoLink} target="_blank" rel="noopener noreferrer">
               <button className="youtubeButton">Watch on YouTube</button>

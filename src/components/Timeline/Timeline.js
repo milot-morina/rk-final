@@ -9,7 +9,7 @@ const Timeline = () => {
      
             
               <div className="quote">
-                <p >"On the path to glory, you'll find no shortcuts"</p>
+                <p >"On the path to glory..."</p>
               </div>
             
           
@@ -54,8 +54,18 @@ const Timeline = () => {
         <div className="card">
           <div className="info">
             <h3 className="title"> 5 - 0 - 0 </h3>
-            <img src="assets/pesRK.jpg" alt="Fifth Match Soon" className="timeline-image" />
-            <p>As I step into the ring for my fifth professional fight, the anticipation is palpable. This match is titled "Rising Storm" to capture the brewing intensity surrounding my career. Facing a formidable opponent, the clash promises to be a perfect storm of skill, strategy, and determination.</p>
+            <img src="assets/newPesRK.jpg" alt="Fifth Match Soon" className="timeline-image" />
+            <p>The air is charged with a sweet sense of accomplishment as my hand is raised in the center of the ring.The crowd's cheers reverberate through the arena, acknowledging not just a win but a demonstration of skill, determination, and an unwavering spirit. As the referee declared me the victor, a surge of emotions cascaded through me — a blend of joy, relief, and an insatiable hunger for the next challenge.</p>
+          </div>
+        </div>
+        
+        {/* Repeat similar structure for other cards */}
+        
+        <div className="card">
+          <div className="info">
+            <h3 className="title"> 6 - 0 - 0 ?</h3>
+            <img src="assets/newGjashtRK.jpg" alt="Sixth Match Soon" className="timeline-image" />
+            <p>As I stand on the precipice of my sixth professional fight, the title "Uncharted Horizons" beckons a sense of anticipation and excitement. This upcoming bout is a journey into the unknown, a venture into unexplored territories within the realm of professional boxing.</p>
           </div>
         </div>
         
@@ -69,6 +79,10 @@ const Timeline = () => {
         </div>
         
         {/* Repeat similar structure for other cards */}
+
+              <div className="quote">
+                <p >"...you'll find no shortcuts"</p>
+              </div>
       </div>
     </div>
     </div>

@@ -5,10 +5,9 @@ const Footer = () => {
   return (
     <footer className="footer-container">
       <div className="footer-content">
-        
-      <img src="assets/reetech.webp" alt="Reetech Logo" className="logo" />
-
-
+        <a href="https://www.reetech.ch/" target="_blank" rel="noopener noreferrer">
+          <img src="assets/reetech.webp" alt="Reetech Logo" className="logo" />
+        </a>
       </div>
     </footer>
   );
